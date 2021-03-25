@@ -1,0 +1,130 @@
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+}
+.navbar{
+  background-color: rgb(218, 30, 30) !important;
+}
+.navbar-brand{
+  font-size: 1.5rem;
+  color: aqua;
+}
+.menu_active{
+   font-weight: bold;
+   border-bottom: 1px solid rgb(25, 72, 226);
+}
+.navbar a {
+   font-size: 1.3rem;
+   text-transform: capitalize;
+   color: #000;
+}
+.navbar a:hover{
+    color:rgb(25, 72, 226);
+}
+.btn_get_started{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(44, 103, 231);
+    border: 1px solid rgb(44, 103, 231);
+    padding: 11px 30px;
+    border-radius: 26px;
+    text-decoration: none;
+}
+.btn_get_started:hover{
+    text-decoration: none;
+    color: rgb(250, 243, 243);
+    transition: 0.5s ease-in-out;
+    background-color: rgb(79, 86, 175);
+}
+
+#header{
+  padding: 55px 10px;
+}
+#header h1{
+   font-size: 2.5rem;
+   font-weight: 600;
+   color: #000;
+   text-transform: capitalize;
+}
+#header h2{
+   font-size: 1.3rem;
+   font-weight: 400;
+   color: #000;
+} 
+#header span{
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: geogia;
+  color: rgb(40, 112, 219);
+} 
+
+#header .animated{
+    animation: up-down 3s ease-in-out infinite alternate-reverse both; 
+}
+
+@-webkit-keyframes up-down {
+   0%{
+      transform: translateY(10px);
+   }
+   100%{
+     transform: translateY(-10px);
+   }
+}
+@keyframes up-down{
+  0%{
+    transform: translateY(10px);
+ }
+ 100%{
+   transform: translateY(-10px);
+ }
+}
+
+@media(max-width: 600px){
+  .navbar-brand{
+     font-size: 1.5rem;
+  }
+  .menu_active{
+     font-weight: bold;
+     border-bottom: none;
+  }
+}
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
